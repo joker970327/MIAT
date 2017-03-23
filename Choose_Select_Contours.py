@@ -74,6 +74,8 @@ def choose_contours(event,x,y,flags,param):
 #                elif k == ord('E'):
 #                    break
                 elif k == ord('E'):
+                    txt.close()
+                    cv2.destroyAllWindows()
                     exit()
                     
                         
@@ -122,7 +124,7 @@ for order_num in xrange(start_picture,Len+1):
                 x,y,w,h = cv2.boundingRect(cnt)
                 cv2.rectangle(show,(x,y),(x+w,y+h),(0,255,0),2)
             cv2.destroyAllWindows()
-            cv2.imshow("show",show)
+            cv2.imshow(str(order_num) + '.jpg',show)
             k = cv2.waitKey(0)&0xFF
         elif k == ord('S'):
             show = img.copy()
@@ -185,6 +187,8 @@ for order_num in xrange(start_picture,Len+1):
             cv2.imshow(str(order_num) + '.jpg',show)
             k = cv2.waitKey(0)&0xFF
         elif k == ord('E'):
+            txt.close()
+            cv2.destroyAllWindows()
             exit()
         else:
             break;
