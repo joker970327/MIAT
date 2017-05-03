@@ -2,10 +2,9 @@
 import os
 
 """
-¹¦ÄÜ£º½«pathÂ·¾¶ÏÂµÄjpgÎÄ¼ş£¬´Óstart_num¿ªÊ¼ÒÀ´Î°²Ë³ĞòÖØÃüÃû¡£
-Ê¹ÓÃ£ºĞŞ¸ÄpathºÍstart_num¡£
+åŠŸèƒ½ï¼šå°†pathè·¯å¾„ä¸‹çš„jpgæ–‡ä»¶ï¼Œä»start_numå¼€å§‹ä¾æ¬¡å®‰é¡ºåºé‡å‘½åã€‚
+ä½¿ç”¨ï¼šä¿®æ”¹pathå’Œstart_numã€‚
 """
-
 
 path = 'E:\\TrafficSing_Zhang\\Upslope\\new\\neg\\'
 start_num = 0
