@@ -9,8 +9,8 @@ import cv2
       img_width  图像宽度
       img_height 图像高度
 """
-load_path = 'H:\\TrafficSignData\\TrafficSignData\\15 注意行人\\'
-save_path = 'H:\\TrafficSignData\\Norm_DATA\\15 注意行人\\'
+load_path = 'J:\\000_DATA\\4\\'
+save_path = 'J:\\0000_Norm_DATA\\4\\'
 img_width = 640
 img_height = 960
 
